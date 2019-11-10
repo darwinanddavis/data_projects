@@ -20,7 +20,7 @@ Emory University Atlanta, USA
 
 ### People  
 
-Matt Malishev, Emory University, USA    
+**Matt Malishev, Emory University, USA**    
 Desiree de Leon, Emory University, USA    
 Hasse Walum, Emory University, USA  
 
@@ -31,7 +31,8 @@ Hasse Walum, Emory University, USA
 
 ### Outcomes    
 
-* Monthly coding club in `R` at Emory University      
+* Monthly coding club in `R` at Emory University
+* Teaching and mentoring from undergraduate to professor levels        
 
 ### Example outputs  
 

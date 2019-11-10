@@ -22,8 +22,8 @@ C. Michael Bull, Flinders University, Australia
   
 ### Tasks
 
-* Develop a simulation model forecasting animal movement and dispersal potential in space and time using weather, microclimate, LIDAR, and geolocation data.   
-* Integrate metabolic theory into simulation model.  
+* Developed a simulation model forecasting animal movement and dispersal potential in space and time using weather, microclimate, LIDAR, and geolocation data.   
+* Integrated metabolic theory into an individual-based simulation model.     
 
 ### Outcomes
 
@@ -44,7 +44,11 @@ _Media_
 
 ![home range fig]()
 
-![activity budget fig]()  
+<br>  
+
+![activity budget fig]()
+
+<br>  
 
 ### Links  
 
