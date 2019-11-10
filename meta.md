@@ -20,22 +20,6 @@ Living Earth Collaborative Center for Biodiversity Working Group
 Washington University    
 St. Louis, MO, USA    
 
-
-```{r,echo=F,out.width="100%"}
-# devtools::install_github('rstudio/leaflet', build_vignettes = TRUE)
-require(leaflet); require(dplyr)
-provider_type <- "CartoDB.Positron"#  "Stamen.Toner"
-opac <- 1 # 
-latlon <- c(38.627003, -90.199402) 
-map <- leaflet() %>%  
-  setView(latlon[2],latlon[1], zoom = 10)
-map <- addTiles(map) 
-map <- addMarkers(map,latlon[2],latlon[1])
-map <- addProviderTiles(map, provider_type,options = providerTileOptions(opacity = opac))
-map 
-
-```
-
 ### People   
 
 Amanda Koltz (co-organizer), Washington University in St. Louis, USA    
@@ -47,7 +31,7 @@ Brandon Barton, Mississippi State University, USA
 Zoe Johnson, Mississippi State University, USA    
 Aimee Classen, University of Vermont, USA    
 J. Trevor Vannatta, Purdue University, USA    
-Matt Malishev, Emory University, USA    
+**Matt Malishev, Emory University, USA**    
 David Civitello, Emory University, USA      
 Daniel Preston, University of Wisconsin-Madison, USA    
 Maris Brenn-White, St. Louis Zoo, USA    

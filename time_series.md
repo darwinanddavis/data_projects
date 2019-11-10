@@ -21,7 +21,7 @@ Emory University Atlanta, USA
 ### People  
 
 Seul Lee, Emory University, USA       
-Matt Malishev, Emory University, USA    
+**Matt Malishev, Emory University, USA**    
 Martina Laidemitt, NIH Fogarty International Center, USA  
 David Civitello, Emory University, USA      
 
