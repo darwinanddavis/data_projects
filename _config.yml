@@ -44,7 +44,6 @@ header_pages:
 - time_series.md
 - disease.md
 - coding_club.md
-- index.html
 
 # Build settings
 theme: minima
