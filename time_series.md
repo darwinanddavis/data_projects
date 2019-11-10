@@ -34,7 +34,11 @@ David Civitello, Emory University, USA
 
 * text    
 
-### Example outputs  
+### Example outputs 
+
+![](img/time_series_sitelocs.png)  
+<br>  
+###### Figure 1. Site locations for temperature probe data and _Biompharalia_ habitats.  
 
 
 [wavelet1](time_series1.jpg)  

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573428222948.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7004C6B",
+    "lastKnownWriteTime" : 1573428288,
+    "last_content_update" : 1573428576795,
+    "path" : "~/Documents/Data/data_projects/time_series/time_series_sitelocs.R",
+    "project_path" : "time_series/time_series_sitelocs.R",
+    "properties" : {
+        "cursorPosition" : "66,3",
+        "scrollLine" : "6",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

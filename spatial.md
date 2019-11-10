@@ -5,11 +5,10 @@ permalink: /spatial/
 ---
 <a id="top"></a>
 
-# Title
+******  
+<br>  
 
-### Snapshot
-
-text
+## Simulating animal movement and dispersal potential in space and time from individual bioenergetics and habitat data          
 
 ### Location
 
@@ -23,8 +22,8 @@ C. Michael Bull, Flinders University, Australia
   
 ### Tasks
 
-* Develop a simulation model forecasting animal movement and dispersal potential in space and time using weather, microclimate, 
-* text
+* Develop a simulation model forecasting animal movement and dispersal potential in space and time using weather, microclimate, LIDAR, and geolocation data.   
+* Integrate metabolic theory into simulation model.  
 
 ### Outcomes
 
