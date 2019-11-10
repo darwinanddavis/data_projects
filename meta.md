@@ -44,15 +44,15 @@ Maris Brenn-White, St. Louis Zoo, USA
 
 **Outcomes**  
 
-* Literature keyword search bot    
-* Meta-analysis keyword data bot    
+* Keyword query bot      
+* Data scraper bot      
 * NPSI model    
 
 ******    
 
-### Literature keyword search bot 
+### Keyword query bot 
 
-The bot reads a .txt file containing literature entries resulting from a keyword search term query similar to a Web of Science database search. It then converts this file into a readable .csv file with each row as a different paper. Using user-defined keyword search terms, it then scrapes the .csv file and returns a new file saved to the user's local hard drive with the final entries containing those search terms. Users can define what part of the paper they want to search, e.g. Title, Author, Abstract, etc.   
+The bot reads a .txt file containing literature entries resulting from a keyword search term query similar to a Web of Science database search. It then converts this file into a readable .csv file with each row as separate data, in this case, research articles. Using user-defined keyword search terms, it then scrapes the .csv file and returns a new file saved to the user's local hard drive with the final data entries containing the user-defined search terms. Users can define what part of the article they want to search, e.g. Title, Author, Abstract, etc.     
 
 :one: [Download the instructions for running the bot in `R`](https://github.com/darwinanddavis/LECWorkingGroup/raw/master/keyword_scrape/lec_keyword_search.pdf)    
 :two: [Download the model file (right click here and 'Save link as')](https://github.com/darwinanddavis/LECWorkingGroup/raw/master/keyword_scrape/lec_keyword_search.R?raw=true)      
