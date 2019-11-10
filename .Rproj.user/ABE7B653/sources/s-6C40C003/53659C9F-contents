@@ -1,0 +1,119 @@
+---
+layout: default
+sidebar: toc 
+output: md_document
+---
+<a id="top"></a>  
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
+</script>
+
+<!-- rmd settings -->
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small", # set code chunk size
+ knitr::opts_chunk$set(fig.pos = 'H')
+)
+```
+
+******  
+
+[## Simulation modelling](project1) | [## Spatial modelling ](project2) | [## Meta-analysis](./) | [## Coding Club](./) | [## Project5](./) 
+
+## Meta-analysis and disease transmission model development 
+### Living Earth Collaborative Working Group on macroparasite impact on nutrient and biomass cycling in ecosystems   
+
+**Location**  
+Living Earth Collaborative Center for Biodiversity Working Group   
+Washington University  
+St. Louis, MO, USA  
+December 4-7, 2018 and May 5–10, 2019  
+
+```{r,echo=F,out.width="100%"}
+# devtools::install_github('rstudio/leaflet', build_vignettes = TRUE)
+require(leaflet); require(dplyr)
+provider_type <- "CartoDB.Positron"#  "Stamen.Toner"
+opac <- 1 # 
+latlon <- c(38.627003, -90.199402) 
+map <- leaflet() %>%  
+  setView(latlon[2],latlon[1], zoom = 10)
+map <- addTiles(map) 
+map <- addMarkers(map,latlon[2],latlon[1])
+map <- addProviderTiles(map, provider_type,options = providerTileOptions(opacity = opac))
+map 
+
+```
+
+**People**  
+Amanda Koltz (co-organizer), Washington University in St. Louis, USA  
+Rachel Penczkowski (co-organizer), Washington University in St. Louis, USA  
+Sharon Deem (co-organizer), Institute for Conservation Medicine, St. Louis Zoo, USA  
+Vanessa Ezenwa (co-organizer), University of Georgia, USA  
+Susan Kutz, University of Calgary, Canada  
+Brandon Barton, Mississippi State University, USA  
+Zoe Johnson, Mississippi State University, USA  
+Aimee Classen, University of Vermont, USA  
+J. Trevor Vannatta, Purdue University, USA  
+Matt Malishev, Emory University, USA  
+David Civitello, Emory University, USA    
+Daniel Preston, University of Wisconsin-Madison, USA  
+Maris Brenn-White, St. Louis Zoo, USA  
+  
+**Tasks** 
+
+* Develop a keyword search term bot for scraping data from literature search terms based on Web of Science results  
+* Develop a keyword search term bot for scraping PDF files for user-defined terms  
+* Develop a host-parasite disease transmission model with biomass conservation and nutrient cycling to predict macroparasite burden on terrestrial ungulates (wild and livestock) 
+
+**Outcomes**  
+
+* Literature keyword search bot  
+* Meta-analysis keyword data bot  
+* NPSI model  
+
+******    
+
+### Literature keyword search bot 
+
+The bot reads a .txt file containing literature entries resulting from a keyword search term query similar to a Web of Science database search. It then converts this file into a readable .csv file with each row as a different paper. Using user-defined keyword search terms, it then scrapes the .csv file and returns a new file saved to the user's local hard drive with the final entries containing those search terms. Users can define what part of the paper they want to search, e.g. Title, Author, Abstract, etc.   
+
+:one: [Download the instructions for running the bot in `R`](https://github.com/darwinanddavis/LECWorkingGroup/raw/master/keyword_scrape/lec_keyword_search.pdf)  
+:two: [Download the model file (right click here and 'Save link as')](https://github.com/darwinanddavis/LECWorkingGroup/raw/master/keyword_scrape/lec_keyword_search.R?raw=true)    
+:three: Run the model in `R`. The final outputs will save to your local directory.  
+
+*keyword_final.csv*       
+*keyword_final_isolated.csv*       
+
+**Results**
+
+Raw data input: default Web of Science keyword search query (scroll right).     
+
+```{r,echo=F,message=F}
+readr::read_lines("LEC100testrecords.txt")[1]
+```
+
+Output: Quiered data based on user search terms.  
+
+| Parameter | Definition | Dimension<br/>(unit) |
+| :---: | :--- | ---: |
+| _L_ | structural length | cm |
+| _ee_ | scaled reserve density | J (cm^3^) |
+| _D_ | host development | --- |
+| _RH_ | energy in reproduction buffer| J |  
+
+[Link to Github page.](https://github.com/darwinanddavis/LECWorkingGroup)        
+
+#### Meta-analysis 
+
+
+
+[Back to top](#top) | [Home page](./)  
