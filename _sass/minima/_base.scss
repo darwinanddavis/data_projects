@@ -94,10 +94,14 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
 
+h2 {
+  font-weight: $base-font-weight;
+  color: $orange-color; 
+}
 
 
 /**
@@ -108,7 +112,7 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($orange-color, 15%);
+    color: $orange-color;
   }
 
   &:hover {

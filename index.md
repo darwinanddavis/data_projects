@@ -1,6 +1,5 @@
 <a id="top"></a>
 
-******  
 <br>  
 
 # A snapshot of my data science projects   
