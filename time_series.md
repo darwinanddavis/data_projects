@@ -48,4 +48,4 @@ David Civitello, Emory University, USA
 
 ******    
 
-[Back to top](#top) | [Home page](./)
+[Back to top](#top) | [Home page](index)

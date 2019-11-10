@@ -8,9 +8,12 @@ permalink: /meta/
 ******  
 <br>  
 
-
 ## Meta-analysis and disease transmission model development   
 ### Living Earth Collaborative Working Group on macroparasite impact on nutrient and biomass cycling in ecosystems     
+
+### Snapshot  
+
+
 
 ### Location   
 Living Earth Collaborative Center for Biodiversity Working Group     
