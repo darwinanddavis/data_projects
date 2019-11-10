@@ -1,0 +1,31 @@
+]0;~/Documents/Data/data_projects[?1034h6300L-127771-M:data_projects malishev$ [K6300L-127771-M:data_projects malishev$ ls
+LEC100testrecords.txt
+data_projects.Rproj
+project1.md
+project1.rmd
+project1_files
+project1_output.csv
+]0;~/Documents/Data/data_projects6300L-127771-M:data_projects malishev$ open .gi t/[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci tignore
+The file /Users/malishev/Documents/Data/data_projects/.gitignore does not exist.
+]0;~/Documents/Data/data_projects6300L-127771-M:data_projects malishev$ ls[K[Kpwd
+/Users/malishev/Documents/Data/data_projects
+]0;~/Documents/Data/data_projects6300L-127771-M:data_projects malishev$ ls
+LEC100testrecords.txt
+_config.yml
+_includes
+_layouts
+_posts
+_sass
+assets
+coding_club
+data_projects.Rproj
+disease
+index.md
+meta
+script
+spatial
+time_series
+]0;~/Documents/Data/data_projects6300L-127771-M:data_projects malishev$ touch .g itin[K[Kignore
+]0;~/Documents/Data/data_projects6300L-127771-M:data_projects malishev$ open .gi tignore 
+]0;~/Documents/Data/data_projects6300L-127771-M:data_projects malishev$ 
