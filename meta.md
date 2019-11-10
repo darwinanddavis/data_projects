@@ -76,9 +76,9 @@ lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ip
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 
-### Project links  
+### Links    
 
-[Link to Github page.](https://github.com/darwinanddavis/LECWorkingGroup)        
+[Project page on Github.](https://github.com/darwinanddavis/LECWorkingGroup)          
 
 <br>  
 <br>  

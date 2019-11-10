@@ -94,11 +94,11 @@ li {
 /**
  * Headings
  */
-h1, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
 
-h2 {
+h1 {
   font-weight: $base-font-weight;
   color: $orange-color; 
 }
@@ -238,7 +238,8 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  //color: lighten($text-color, 18%);
+  color: $text-color;
   border-collapse: collapse;
   // border: 1px solid $grey-color-light;
   border: 1px solid $black-color;
