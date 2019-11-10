@@ -1,7 +1,7 @@
 title: Matt Malishev
 author: darwinanddavis  
 email: matthew.malishev@gmail.com
-description: Projects on various data and research problems using modelling and computational methods in ecological and data science
+description: Data and research projects using modelling and computational methods in ecological and data science
 
 # show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -12,9 +12,9 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
-    rss: rss
+    twitter: darwinanddavis
+    github: darwinanddavis
+    # rss: rss
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
