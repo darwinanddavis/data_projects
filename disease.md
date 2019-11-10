@@ -20,8 +20,8 @@ Emory University Atlanta, USA
 
 ### People
 
-**Matt Malishev, Emory University, USA**
-David Civitello, Emory University, USA  
+**Matt Malishev, Emory University, USA**  
+David Civitello, Emory University, USA    
 
 ### Tasks
 
@@ -46,4 +46,4 @@ David Civitello, Emory University, USA
 
 ------------------------------------------------------------------------
 
-[Back to top](#top) | [Home page](/.)
+[Back to top](#top) | [Home page](\)
