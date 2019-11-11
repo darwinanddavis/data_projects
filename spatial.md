@@ -52,7 +52,7 @@ _Media_
 
 ### Links  
 
-[Project Page on Github](https://github.com/darwinanddavis/Sleepy_IBM).    
+[Project Page on Github.](https://github.com/darwinanddavis/Sleepy_IBM)      
 
 [Supplementary Material for Malishev M, Bull, CM, and Kearney MR (2019) MEE, 9(3): 472–489](https://github.com/darwinanddavis/MalishevBullKearney).    
 
@@ -64,4 +64,4 @@ Kearney, M. R., and W. P. Porter. 2017. NicheMapR - an R package for biophysical
 
 ******  
 
-[Back to top](#top)|[Home](./index.md)
+[Back to top](#top)|[Home page](./index.md)

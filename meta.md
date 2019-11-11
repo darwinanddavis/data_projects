@@ -85,4 +85,4 @@ lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ip
 
 ******  
 
-[Back to top](#top)|[Home](./index.md) 
+[Back to top](#top)|[Home page](./index.md)
