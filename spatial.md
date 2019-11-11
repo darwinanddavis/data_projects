@@ -24,7 +24,7 @@ C. Michael Bull, Flinders University, Australia
 ### Tasks
 
 * Predicted animal movement and dispersal potential in space and time using simulation modelling with weather, microclimate, LIDAR, and geolocation data.       
-* Developed a simulation frameowrk grounded in metabolic theory of energy and mass exchange.           
+* Developed a simulation framework grounded in metabolic theory of energy and mass exchange.           
 
 ### Outcomes
 

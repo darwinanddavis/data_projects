@@ -9,11 +9,7 @@ permalink: /disease/
 ![](disease_header.png)
 
 <br>  
-## _Schistosome_ Infection Dynamic Energy Budget (SIDEB) model     
-
-### Snapshot
-
-text
+## Forecasting human exposure risk from bioenergetics simulation models of host-parasite ecology in the human schistosome    
 
 ### Location
 

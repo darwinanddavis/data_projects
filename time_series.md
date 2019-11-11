@@ -11,10 +11,6 @@ permalink: /time_series/
 <br>
 ## Time series analysis of field temperature data and human disturbance events in human schistosome hotspots            
 
-### Snapshot  
-
-text
-
 ### Location  
 
 Emory University Atlanta, USA
