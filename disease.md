@@ -6,6 +6,7 @@ permalink: /disease/
 <a id="top"></a>
 
 ******  
+<br>  
 ![](disease_header.png)  
 <br>  
 

@@ -6,6 +6,7 @@ permalink: /coding_club/
 <a id="top"></a>
 
 ******  
+<br>  
 ![](coding_club_header.png)
 <br>  
 

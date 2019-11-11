@@ -5,8 +5,9 @@ permalink: /spatial/
 ---
 <a id="top"></a>
 
-******  
-![](spatial_header.gif)    
+******
+<br>  
+![](spatial_header.gif) ![](spatial_header.gif) ![](spatial_header.gif)        
 <br>  
 
 ## Simulating animal movement and dispersal potential in space and time from individual bioenergetics and habitat data          
@@ -46,7 +47,7 @@ _Media_
 ###### Figure 1. Activity budget for all optimising and satisficing animals throughout the breeding season showing proportion of time spent (A) feeding, (B) searching, and (C) resting, as well as (D) proportion of number of transitions between activity states. Radius = time spent in activity state; circumference = days throughout the breeding season. Black arrows indicate a 5-day period where environmental conditions were not conducive to activity, so animals spent this time resting in shade.    
 <br>  
 
-![spatial sims](spatial/spatial2.png)
+![spatial sims](spatial/spatial2.jpg)
 ###### Figure 2. Movement path and home ranges of real versus simulated sleepy lizards. (A) Individual #11885, a real sleepy lizard showing active movement and (B) individual #11533, a real sleepy lizard showing passive movement, throughout the breeding season. (C) A random simulated optimising individual representing the maximum potential movement and (D) a random simulated satisficing individual representing the minimum movement necessary throughout the breeding season based on its physiological limits. (C–D) green = food patches, black = shade patches, and polygons represent home ranges. Patch size in simulations represents time elapsed on patch.  
 <br>  
 
