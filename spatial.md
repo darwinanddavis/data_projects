@@ -6,12 +6,8 @@ permalink: /spatial/
 <a id="top"></a>
 
 ******
-<p float="center">
-	<img src="spatial/spatial_header.gif" width="100" />
-  	<img src="spatial/spatial_header.gif" width="100" />
-  	<img src="spatial/spatial_header.gif" width="100" />
-</p>
-******
+![](spatial/spatial_header.gif) ![](spatial/spatial_header.gif) ![](spatial/spatial_header.gif)
+******  
 
 ## Simulating animal movement and dispersal potential in space and time from individual bioenergetics and habitat data          
 
