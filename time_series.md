@@ -38,7 +38,7 @@ David Civitello, Emory University, USA
 
 **Method for wavelet analysis of time series data**  
 
-```{r}
+```r
 packages <- c("WaveletComp","viridis")
 if(require(packages)){install.packages(packages,dependencies = T)}
 ppp <- lapply(packages,require,character.only=T)
