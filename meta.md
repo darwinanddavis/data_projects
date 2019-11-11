@@ -6,7 +6,8 @@ permalink: /meta/
 <a id="top"></a>
 
 ******  
-<br>  
+
+******  
 
 ## Meta-analysis and disease transmission model development   
 ### Living Earth Collaborative Working Group on macroparasite impact on nutrient and biomass cycling in ecosystems     

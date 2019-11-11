@@ -6,9 +6,8 @@ permalink: /time_series/
 <a id="top"></a>
 
 ******  
-<br>  
 ![](time_series_header.png)
-<br>  
+******  
 
 ## Time series analysis of field temperature data in human schistosome hotspots        
 
