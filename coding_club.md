@@ -7,8 +7,8 @@ permalink: /coding_club/
 
 ******  
 ![](coding_club_header.png)
-******  
 
+<br>
 ## Emory Coding Club
 
 ### Snapshot  

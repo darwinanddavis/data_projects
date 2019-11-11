@@ -6,10 +6,9 @@ permalink: /disease/
 <a id="top"></a>
 
 ******  
-![](disease_header.png)  
-  
-******  
-  
+![](disease_header.png)
+
+<br>  
 ## _Schistosome_ Infection Dynamic Energy Budget (SIDEB) model     
 
 ### Snapshot
@@ -39,6 +38,7 @@ David Civitello, Emory University, USA
 * **Malishev M** and Civitello DJ (2019) Fewer, fatter snail hosts make more human schistosome parasites than many, starved ones, [International Society for Ecological Modelling 2019](https://www.elsevier.com/events/conferences/international-society-for-ecological-modelling-global-conference/programme), ISEM2019, Oct 1–5, Salzburg, Austria.        
 
 ### Example outputs  
+<br>
 
 ![](disease/disease1.png) 
 ###### Figure 1. Cumulative human-infectious cercariae output (# 500 L–1 ± SE) for A) logistically growing periphyton algae and B) constant detritus subsidy after the seven simulated molluscicide programs (n = 5) for schistosomiasis control at 95% host mortality (hb = 3.0 d–1) showing potential program success (left of dashed line, in blue) and failure (right of dashed line, in red): no control, one-off control every tenth day (day 10–140), monthly, bimonthly (every two months), skipping day 30, skipping day 60, skipping day 90, and skipping day 120. Resource growth rates are r = 0.25 d-1 and det = 0.25 mg C d-1 for algae and detritus, respectively.   
