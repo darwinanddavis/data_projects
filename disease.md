@@ -50,7 +50,7 @@ David Civitello, Emory University, USA
 
 [Project page on Github.](https://github.com/darwinanddavis/SchistoIBM)  
 
-[Supplementary Material for Malishev M** & Civitello DJ (2019) Int. Comparat. Biol., iz385](https://github.com/darwinanddavis/MalishevCivitello_SICB).                
+[Supplementary Material for Malishev M & Civitello DJ (2019) Int. Comparat. Biol., iz385.](https://github.com/darwinanddavis/MalishevCivitello_SICB)                
 
 <br>  
 <br>  
