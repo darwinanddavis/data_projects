@@ -62,6 +62,6 @@ Kearney, M. R., and W. P. Porter. 2017. NicheMapR - an R package for biophysical
 <br>  
 <br>
 
-------------------------------------------------------------------------
+******  
 
-[Back to top](#top) | [Home page](index)
+[Back to top](#top)|[Home](./index.md)

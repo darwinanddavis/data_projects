@@ -41,6 +41,6 @@ Hasse Walum, Emory University, USA
 <br>  
 <br>  
 
-******    
+******  
 
-[Back to top](#top) | [Home page](./)
+[Back to top](#top)|[Home](./index.md)
