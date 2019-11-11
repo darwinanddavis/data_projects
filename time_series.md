@@ -38,18 +38,34 @@ David Civitello, Emory University, USA
 
 **Method for wavelet analysis of time series data**  
 
+Psuedocode for running wavelet
+```
+input parameters for wavelet function
+analysis function
+   [ site location
+     time horizon ]
+execute function
+   [ read and clean temperature data
+     set time horizon
+     run wavelet analysis
+     plot outputs ]
+```
+<br>
+
+Wavelet analysis `R` code  
 ```r
 packages <- c("WaveletComp","viridis")
 if(require(packages)){install.packages(packages,dependencies = T)}
 ppp <- lapply(packages,require,character.only=T)
-if(any(ppp==F)){cbind(packages,ppp);cat("\n\n\n ---> Check packages are loaded properly <--- \n\n\n")}
+if(any(ppp==F)){cbind(packages,ppp)
+cat("\n\n\n ---> Check packages are loaded properly <--- \n\n\n")}
 
 graphics.off()
 par(las=1,bty="n",col=adjustcolor("steelblue",alpha=0.5))
-# ---------------------------- constant/variable time period -----------------------------
+# ---------------------------- constant/variable time period 
 # when dt = 0.25, lower.period must equal 4 because lower period is 1/dt    
 # X axis = time in temperature data
-# Y axis = deconstructed time period (periodicity), e.g. days, weeks, month, 
+# Y axis = deconstructed time period (periodicity), e.g. days, weeks, month 
 
 periodicity <- "constant" # constant or variable
 # input data (an equal start and end period = constant time, i.e no change in periodicity)
@@ -64,7 +80,9 @@ ifelse(periodicity=="constant",end.period <- start.period, end.period <- end.per
 
 set.seed(12)
 x <- periodic.series(1,100,100)
-x <-periodic.series(start.period = start.period, end.period = end.period, length = len);x
+x <-periodic.series(start.period = start.period, 
+	end.period = end.period, 
+	length = len);x
 # x <- x + 0.2*rnorm(1000) # add some noise 
 par(mar=c(1,1,1,1))
 plot(x,type="l")
@@ -81,8 +99,10 @@ myw <- analyze.wavelet(my.data,"x",
 
 # plot wavelet analysis attributes
 par(mfrow=c(1,2))
-plot(myw$Period,type="l",main="Log period range") # period range on log scale (determined by dj)
-plot(myw$Wave,pch=".",col=adjustcolor("orange",0.5),main="Complex conjugate") # linear model against real part of complex values in Wave 
+# period range on log scale (determined by dj)
+plot(myw$Period,type="l",main="Log period range") 
+# linear model against real part of complex values in Wave 
+plot(myw$Wave,pch=".",col=adjustcolor("orange",0.5),main="Complex conjugate") 
 
 # plot wavelet analysis
 require(viridis)
@@ -119,20 +139,18 @@ Other areas to apply this analysis:
 <br>       
 
 ![](img/time_series_sitelocs.png)  
-###### Figure 1. Site locations for temperature probe data and _Biompharalia_ habitats.  
+###### Figure 1. Site locations for temperature probe data and _Biomphalaria_ habitats.  
 <br>  
 
-[wavelet1](time_series1.jpg)  
+[wavelet1](time_series/time_series1.png)  
 <br>  
 
-[wavelet1](time_series2.jpg)  
-<br>  
+[wavelet1](time_series/time_series2.png)          
 
-[wavelet1](time_series3.jpg)  
- 
 <br>  
 <br>  
 
 ******  
 
 [Back to top](#top)|[Home page](./index.md)
+
