@@ -7,6 +7,7 @@ permalink: /disease/
 
 ******  
 ![](disease_header.png)  
+  
 ******  
   
 ## _Schistosome_ Infection Dynamic Energy Budget (SIDEB) model     

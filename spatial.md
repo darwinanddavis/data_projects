@@ -7,8 +7,8 @@ permalink: /spatial/
 
 ******
 ![](spatial/spatial_header.gif) ![](spatial/spatial_header.gif) ![](spatial/spatial_header.gif)
-******  
 
+<br>
 ## Simulating animal movement and dispersal potential in space and time from individual bioenergetics and habitat data          
 
 ### Location
@@ -23,8 +23,8 @@ C. Michael Bull, Flinders University, Australia
   
 ### Tasks
 
-* Developed a simulation model forecasting animal movement and dispersal potential in space and time using weather, microclimate, LIDAR, and geolocation data.   
-* Integrated metabolic theory into an individual-based simulation model.     
+* Predicted animal movement and dispersal potential in space and time using simulation modelling with weather, microclimate, LIDAR, and geolocation data.       
+* Developed a simulation frameowrk grounded in metabolic theory of energy and mass exchange.           
 
 ### Outcomes
 
@@ -41,6 +41,7 @@ _Media_
 [Where do Animals Spend Their Time and Energy? Theory, Simulations and GPS Trackers Can Help Us Find Out](https://methodsblog.com/2019/05/22/movement-metabolism-microclimate/), Methods in Ecology and Evolution blog, May 22, 2019.  
 
 ### Example outputs  
+<br>
 
 ![activity](spatial/spatial1.jpg)  
 ###### Figure 1. Activity budget for all optimising and satisficing animals throughout the breeding season showing proportion of time spent (A) feeding, (B) searching, and (C) resting, as well as (D) proportion of number of transitions between activity states. Radius = time spent in activity state; circumference = days throughout the breeding season. Black arrows indicate a 5-day period where environmental conditions were not conducive to activity, so animals spent this time resting in shade.    

@@ -7,9 +7,9 @@ permalink: /time_series/
 
 ******  
 ![](time_series_header.png)
-******  
 
-## Time series analysis of field temperature data in human schistosome hotspots        
+<br>
+## Time series analysis of field temperature data to reveal in human schistosome hotspots          
 
 ### Snapshot  
 
@@ -28,18 +28,18 @@ David Civitello, Emory University, USA
 
 ### Tasks   
 
-* text 
-* text       
+* Integrate environmental data with time series analysis (wavelet transformation) to show how human disturbance translates to increased disease exposure risk  
+
 
 ### Outcomes    
 
-* text    
+* Lee S, **Malishev M**, Laidemitt M & Civitello DJ (2019) Time series analysis of field temperature data identifies human-induced change to snail host habitats producing human schistosomes (poster), Graduate Student Symposium, Emory University.      
 
 ### Example outputs 
 
-**Method for wavelet analysis of time series data**  
+**Methods for wavelet analysis of time series data**  
 
-Psuedocode for running wavelet
+Psuedocode for running wavelet 
 ```
 input parameters for wavelet function
 analysis function
@@ -135,12 +135,56 @@ Other areas to apply this analysis:
 * Physiological reaction to drugs   
 * Chemical spectral analysis  
 * Geothermal activity/earthquake spikes  
-* Decay rates of minerals/chemicals    
-
+* Decay rates of minerals/chemicals  
+  
 <br>       
 
+```r
+# packages
+pacman::p_load(leaflet,dplyr)
+
+# load data. can also be generated from google api. 
+site_names <- c("Kisumu","Lake Jipe","Kinango")
+kisumu <- c(-0.0917,34.7680)
+lake_jipe <- c(-3.6019,37.7557)
+kinango <- c(-4.1393,39.3180)
+latlon <- t(data.frame(kisumu,lake_jipe,kinango))
+colnames(latlon) <- c("lat", "lng") # need to be named this
+latlon
+
+# build map ---------------------------------------------------------------
+### default maps
+require(leaflet)
+map <- leaflet() # initiate the leaflet map object
+map <- addTiles(map) # add the actual map tiles to the leaflet object
+
+names(providers) # types of base maps available
+# some good custom layers
+# 37-48, 97-103, 
+# provider_type <- names(providers)[37]
+provider_type <- "CartoDB.Positron"# set the above input as the custom base
+col_site <- "red" # colour of site marker
+radius <- 10 # size of site marker
+zoom <- 6 # zoom level
+opac <- 1 # transparency of map elements
+weight <- 2 # width of poly lines
+
+map <- addMarkers(map, 
+                  lng = latlon[,"lng"],
+                  lat = latlon[,"lat"],
+                  data=latlon)
+
+# add custom map bases 
+map <- addProviderTiles(map, provider_type,
+	options = providerTileOptions(opacity = opac) # add opacity to country lines
+)
+# plot
+map
+```
+<br>
+
 ![](img/time_series_sitelocs.png)  
-###### Figure 1. Site locations for temperature probe data and _Biomphalaria_ habitats.  
+###### Figure 1. Site locations for temperature probe data and host (_Biomphalaria_) habitats.     
 <br>  
 
 ![alt-text="Wavelet analysis"](time_series/time_series1.png)            
