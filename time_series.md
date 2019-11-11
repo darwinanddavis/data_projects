@@ -6,10 +6,10 @@ permalink: /time_series/
 <a id="top"></a>
 
 ******  
-![](time_series_header.png)
+![](time_series_header.jpg)
 
 <br>
-## Time series analysis of field temperature data to reveal in human schistosome hotspots          
+## Time series analysis of field temperature data and human disturbance events in human schistosome hotspots            
 
 ### Snapshot  
 
@@ -138,6 +138,8 @@ Other areas to apply this analysis:
 * Decay rates of minerals/chemicals  
   
 <br>       
+
+Code for spatial location data  
 
 ```r
 # packages
