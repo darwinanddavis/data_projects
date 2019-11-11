@@ -7,8 +7,10 @@ permalink: /time_series/
 
 ******  
 <br>  
+![](time_series_header.png)
+<br>  
 
-## Time series analysis of field temperature data identifies human-induced change to snail host habitats producing human schistosomes  
+## Time series analysis of field temperature data in human schistosome hotspots        
 
 ### Snapshot  
 
