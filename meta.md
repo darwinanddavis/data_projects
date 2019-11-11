@@ -38,15 +38,15 @@ Maris Brenn-White, St. Louis Zoo, USA
   
 ### Tasks   
 
-* Develop a keyword search term bot for scraping data from literature search terms based on Web of Science results    
-* Develop a keyword search term bot for scraping PDF files for user-defined terms    
-* Develop a host-parasite disease transmission model with biomass conservation and nutrient cycling to predict macroparasite burden on terrestrial ungulates (wild and livestock)   
+> Develop a keyword search term bot for scraping data from literature search terms based on Web of Science results    
+> Develop a keyword search term bot for scraping PDF files for user-defined terms    
+> Develop a host-parasite disease transmission model with biomass conservation and nutrient cycling to predict macroparasite burden on terrestrial ungulates (wild and livestock)   
 
 **Outcomes**  
 
-* Keyword query bot      
-* Data scraper bot      
-* NPSI model    
+> Keyword query bot      
+> Data scraper bot      
+> NPSI model    
 
 ******    
 
@@ -73,7 +73,17 @@ Title 1               | Title 2               | Title 3               | Title 4
 --------------------- | --------------------- | --------------------- | ---------------------
 lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
+
+
+******    
+
+### Data scraper bot  
+
+**Results**  
+
+Title 1               | Title 2               | Title 3               | Title 4
+--------------------- | --------------------- | --------------------- | ---------------------
+lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 
 ### Links    

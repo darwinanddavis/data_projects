@@ -54,7 +54,7 @@ _Media_
 
 [Project Page on Github.](https://github.com/darwinanddavis/Sleepy_IBM)      
 
-[Supplementary Material for Malishev M, Bull, CM, and Kearney MR (2019) MEE, 9(3): 472–489](https://github.com/darwinanddavis/MalishevBullKearney).    
+[Supplementary Material for Malishev M, Bull, CM, and Kearney MR (2018) MEE, 9(3): 472–489](https://github.com/darwinanddavis/MalishevBullKearney).    
 
 Kearney, M. R., and W. P. Porter. 2017. NicheMapR - an R package for biophysical modelling: the microclimate model. Ecography 40:664–674, [doi.org/10.1111/ecog.02360](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02360).         
 
