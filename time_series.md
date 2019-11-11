@@ -131,7 +131,7 @@ wt.image(myw,
 Other areas to apply this analysis:  
 
 * Seasonal infection spikes    
-* Physiologial reaction to drugs   
+* Physiological reaction to drugs   
 * Chemical spectral analysis  
 * Geothermal activity/earthquake spikes  
 * Decay rates of minerals/chemicals    
@@ -142,8 +142,8 @@ Other areas to apply this analysis:
 ###### Figure 1. Site locations for temperature probe data and _Biomphalaria_ habitats.  
 <br>  
 
-![alt-text="temp data"](time_series/time_series1.png) ![alt-text="Wavelet analysis"](time_series/time_series2.png)            
-###### Figure 2. Environmental temperature fluctuations and wavelet power spectrums over time in the Powerhouse _Biomphalaria_ field site. Horizontal lines in left plot indicate the optimal body temperature (14C−26C) for _Biomphalaria_ host snails. Wavelet analyses show the time horizon (periods of days, weeks, months) over time of year (data collection period). Power levels indicate periodicity strength of temperatures in right plot.   
+![alt-text="Wavelet analysis"](time_series/time_series1.png)            
+###### Figure 2. Environmental temperature fluctuations and wavelet power spectrums over time in the Kinango Dam _Biomphalaria_ field site. Horizontal lines in left plot indicate the optimal body temperature (14C−26C) for _Biomphalaria_ host snails. Wavelet analyses show the time horizon (periods of days, weeks, months) over time of year (data collection period). Power levels indicate periodicity strength of temperatures in right plot.   
 
 <br>  
 <br>  
