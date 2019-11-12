@@ -9,7 +9,7 @@ permalink: /coding_club/
 ![](coding_club_header.png)
 
 <br>
-## Emory Coding Club
+## Emory Coding Club for teaching coding, data analysis, and research tools  
 
 ### Location  
 

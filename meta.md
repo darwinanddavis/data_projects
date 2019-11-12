@@ -6,15 +6,15 @@ permalink: /meta/
 <a id="top"></a>
 
 ******  
+![](meta_header.png)
 
 <br>
-## Meta-analysis and disease transmission model development   
-### Living Earth Collaborative Working Group on macroparasite impact on nutrient and biomass cycling in ecosystems     
+## Meta-analysis and disease transmission model for infected host biomass recycling in ecosystems         
 
 ### Location   
 Living Earth Collaborative Center for Biodiversity Working Group     
 Washington University    
-St. Louis, MO, USA    
+St. Louis, USA      
 
 ### People   
 
@@ -34,24 +34,71 @@ Maris Brenn-White, St. Louis Zoo, USA
   
 ### Tasks   
 
-* Built a keyword search term bot for scraping data from literature search terms based on Web of Science results    
-* Built a keyword search term bot for scraping PDF files for user-defined terms    
-* Developed a host-parasite disease transmission model with biomass conservation and nutrient cycling to capture macroparasite burden on terrestrial ungulates (wild and livestock)   
+* Developed a host-parasite disease transmission model with biomass conservation and nutrient cycling to capture macroparasite burden on terrestrial ungulates (wild and livestock) (model development)     
+* Built a keyword search term bot for scraping data from literature search terms based on Web of Science results (meta-analysis)      
+* Built a keyword search term bot for scraping PDF files for user-defined data (meta-analysis)   
 
 **Outcomes**  
 
-* Keyword query bot      
-* Data scraper bot      
-* NPSI model    
+* Nutrient Plants Susceptible Infected (NPSI) model      
+* Nutrient Quota Host-Parasite (NQHP) model  
+* Tic-Tac-Toe spatial NPSI model    
+* Keyword query bot        
+* Data scraper bot        
 
 ### Example outputs  
 <br>    
 
 ******  
 
+#### Nutrient Plants Susceptible Infected (NPSI) model  
+
+Disease transmission model tracking nutrients, plant biomass (resources), and susceptible and infected host population densities under macroparasite burden.  
+
+**State variables (units = biomass)**    
+N = nutrients  
+P = plants  
+S = susceptible ungulate hosts  
+I = infected ungulate hosts  
+<br> 
+
+![](meta/meta1.png)     
+###### Example model output for nutrient (biomass) change over 100 years for the host waste, drool waste, and summed waste resource uptake and nutrient leaching modes of susceptible and infected host populations for beta transmission range [0,1].     
+
+******
+
+#### Nutrient Quota Host-Parasite (NQHP) model      
+
+Gut parasite disease transmission model in host-trematode systems with explicit nutrient exchange and recycling.    
+
+**State variables (units = biomass)**  
+H = host consumer population (host biomass)      
+N = nutrients in the environment (biomass)      
+P = parasite population (within-host parasite biomass)    
+Q_H = nutrient quota in hosts (nutrient/carbon ratio)    
+Q_minus = min phosphorous to carbon ratio (1/Q_minus = high carbon to phosphorous ratio)  
+Q_plus = max phosphorous to carbon ratio (1/Q_plus = low carbon to phosphorous ratio)  
+Q_R = nutrient quota in food source (nutrient/carbon ratio) $Q_F \cdot$ is total nutrients in food      
+R = resources in the landscape (food biomass)      
+W = waste (recycled biomass)              
+
+[Link to project page.](http://htmlpreview.github.io/?https://raw.githubusercontent.com/darwinanddavis/LECWorkingGroup/master/nqhp_model.html)    
+
+******  
+
+#### Tic-Tac-Toe spatial NQHP model  
+
+Consumer-resource disease transmission model of parasite loading on nutrient cycling in ecosystems as a spatial individual-based model of resources, host populations, and disease vector populations.  
+
+To forecast how resource biomass uptake and release by infected and non-infected host populations varies under a disease mosaic landscape driven by feedback between modes and rates of disease transmission and costs of parasite occurrence and nutrient deposit in space and time.      
+
+[Link to project page.](http://htmlpreview.github.io/?https://raw.githubusercontent.com/darwinanddavis/LECWorkingGroup/master/tictactoe.html)      
+
+******  
+
 #### Keyword query bot 
 
-The bot reads a `.txt` file containing literature entries resulting from a keyword search term query similar to a Web of Science database search. It then converts this file into a readable `.csv` file with each row as separate data, in this case, research articles. Using user-defined keyword search terms, it then scrapes the `.csv` file and returns a new file saved to the user's local hard drive with the final data entries containing the user-defined search terms. Users can define what part of the article they want to search, e.g. _Title_, _Author_, _Abstract_, etc.     
+The bot reads a `.txt` file containing literature entries resulting from a keyword search term query similar to a Web of Science database search. It then converts this file into a readable `.csv` file with each row as separate data, in this case, research articles. Using user-defined keyword search terms, it then scrapes the `.csv` file and returns a new file saved to the user's local hard drive with the final data entries containing the user-defined search terms. Users can define what part of the article they want to search, e.g. _Title_, _Author_, _Abstract_, etc.       
 
 1. [Download the instructions for running the bot in `R`](https://github.com/darwinanddavis/LECWorkingGroup/raw/master/keyword_scrape/lec_keyword_search.pdf)    
 2. [Download the model file (right click here and 'Save link as')](https://github.com/darwinanddavis/LECWorkingGroup/raw/master/keyword_scrape/lec_keyword_search.R?raw=true)      
@@ -71,8 +118,6 @@ Keyword query bot `R` code
 # lec_keyword_search.R   
 
 ##########################################################################
-##########################################################################
-##########################################################################
 
 # load packages (run once) ------------------------------------------------
 
@@ -83,7 +128,7 @@ p_load(dplyr,purrr,readr)
 # user inputs -------------------------------------------------------------
 
 # set working dir
-setwd("/Users/malishev/Documents/Emory/research/workshops/stl/journal_data")
+setwd("your working dir")
 
 # Step 1 ----------------------------------------------------------------------
 
@@ -98,8 +143,6 @@ extract1 <- "Title"
 # use any search term you specified in the search_terms_input file
 extract2 <- "Year"
 
-##########################################################################
-##########################################################################
 ##########################################################################
 
 # run rest of code from here ----------------------------------------------
@@ -185,9 +228,13 @@ cat(rep("\n",2),"Your results are saved as\n\n",fho,"\n\n in","\"",wd,"\"","\n\n
 
 **Results**
 
-Raw data input: default Web of Science keyword search query (scroll right).       
+Snippet of raw data input (default Web of Science keyword search query).    
 
-![](meta1.jpg)
+```
+H. Ebedes	1975	THE CAPTURE AND TRANSLOCATION OF GEMSBOK ORYX GAZELLA-GAZELLA IN THE NAMIB DESERT WITH THE AID OF FENTANYL ETORPHINE AND TRANQUILIZERS		Journal of the South African Veterinary Association			46		4	359-362								THE CAPTURE AND TRANSLOCATION OF GEMSBOK ORYX GAZELLA-GAZELLA IN THE NAMIB DESERT WITH THE AID OF FENTANYL ETORPHINE AND TRANQUILIZERS		0038-2809												BCI:BCI197763001378				"Gemsbok (23) in the Namib Desert were captured with combinations of fentanyl or etorphine hydrochloride, hyoscine hydrobromide and tranquilizers such as axaperione, SU-9064 [methyl 18-epereserpate methyl ether hydrochloride], triflupromazine hydrochloride and acetylpromazine maleate. Fentanyl, a new immobilizing compound proved to be safe and effective for gemsbok. The gemsbok were chased on the interdune plains and darted from a Land Rover with the Palmer powder-charge Cap-Chur gun. A 6-seater helicopter was used on a trial basis to dart gemsbok but it is suggested that a small more maneuvrable helicopter be used for further operations. All the gemsbok were transported under narcosis from the capture area to an enclosure. Chlorpromazine hydrochloride was injected into the captured gemsbok to sedate them in their new confined environment. Tranquilizers such as chlorpromazine hydrochloride, acetylpromazine maleate and a new tranquilizer SU-9064 were used to sedate the animals during long distance transportation in crates. This prevented the animals from injuring themselves and damaging the crates. For the 1st time in South West Africa wild animals were transported by air. A journey by road which under normal circumstances would have taken over 40 h was completed in less than 9 h by air. There were no losses during transportation and only 2 gemsbok were injured during the translocation operation."			<Go to ISI>://BCI:BCI197763001378
+"K. A. Durham, R. E. Corstvet and J. A. Hair"	1976	APPLICATION OF FLUORESCENT ANTIBODY TECHNIQUE TO DETERMINE INFECTIVITY RATES OF AMBLYOMMA-AMERICANUM ACARINA IXODIDAE SALIVARY GLANDS AND ORAL SECRETIONS BY THEILERIA-CERVI PIROPLASMORIDA THEILERIIDAE		Journal of Parasitology			62		6	1000-1002								APPLICATION OF FLUORESCENT ANTIBODY TECHNIQUE TO DETERMINE INFECTIVITY RATES OF AMBLYOMMA-AMERICANUM ACARINA IXODIDAE SALIVARY GLANDS AND ORAL SECRETIONS BY THEILERIA-CERVI PIROPLASMORIDA THEILERIIDAE		0022-3395												BCI:BCI197763040767				"Salivary glands and oral secretion from individual field collected ticks, or ticks infected with T. cervi [a pathogen for Odocoileus virginianus] in the laboratory, were subjected to fluorescent antibody techniques to determine the reliability of the technique in the identification of T. cervi in the oral secretion or salivary glands. The fluorescent antibody technique can be used with a reasonable degree of success in the identification of infected salivary glands or oral secretion. Oral secretion examinations gave fewer positive samples than when salivary glands from the same ticks were examined."			<Go to ISI>://BCI:BCI197763040767
+P. T. Durfee and P. J. A. Presidente	1979	A SEROLOGICAL SURVEY OF AUSTRALIAN WILDLIFE FOR ANTIBODIES TO LEPTOSPIRES OF THE HEBDOMADIS SEROGROUP		Australian Journal of Experimental Biology and Medical Science			57		2	177-190								A SEROLOGICAL SURVEY OF AUSTRALIAN WILDLIFE FOR ANTIBODIES TO LEPTOSPIRES OF THE HEBDOMADIS SEROGROUP		0004-945X												BCI:BCI198069024031
+```
 
 Output: Quiered data based on user search terms.  
 
