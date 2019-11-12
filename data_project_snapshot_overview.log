@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.25)  11 NOV 2019 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.25)  11 NOV 2019 22:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -579,16 +579,16 @@ e
 )) [1
 
 {/Users/malishev/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
 (./data_project_snapshot_overview.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
 Package rerunfilecheck Info: File `data_project_snapshot_overview.out' has not 
 changed.
 (rerunfilecheck)             Checksum: A00761D0DD9B64E9E21C923BD84DF40C;456.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
  ) 
 Here is how much of TeX's memory you used:
  10487 strings out of 494111
@@ -603,10 +603,10 @@ ers/malishev/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></User
 s/malishev/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/m
 alishev/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/mali
 shev/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on data_project_snapshot_overview.pdf (2 pages, 102692 bytes).
+Output written on data_project_snapshot_overview.pdf (2 pages, 102734 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
