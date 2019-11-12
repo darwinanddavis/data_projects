@@ -10,3 +10,4 @@ _site
 _project_template.rmd
 _project_template.md
 *.docx
+.Rproj.user
