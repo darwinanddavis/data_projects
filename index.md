@@ -29,7 +29,7 @@ The final [Emory Coding Club](coding_club) project rounds out my technical exper
 
 Applying a data science lens to crack problems, working with diverse data, and an ability to adapt to the right tools are three elements that stitch together my projects and drive my interest as a data scientist. My combined lead and collaborative roles among the projects illustrate my data analysis insight, academic and non-specialist communication, and analysis toolbox for adapting to a range of diverse projects.  
 
-[Download this document as PDF.](https://github.com/darwinanddavis/data_projects/raw/master/data_project_snapshot_overview.pdf)
+[Download this document as PDF.](https://github.com/darwinanddavis/data_projects/raw/gh-pages/data_project_snapshot_overview.pdf)
   
 <br>  
 <br>  
