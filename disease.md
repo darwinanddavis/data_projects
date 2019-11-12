@@ -13,7 +13,8 @@ permalink: /disease/
 
 ### Location
 
-Emory University Atlanta, USA
+Emory University  
+Atlanta, USA
 
 ### People
 

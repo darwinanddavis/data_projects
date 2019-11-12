@@ -11,10 +11,10 @@ permalink: /meta/
 <br>
 ## Meta-analysis and disease transmission model for infected host biomass recycling in ecosystems         
 
-### Location   
+### Location     
+
 Living Earth Collaborative Center for Biodiversity Working Group     
-Washington University    
-St. Louis, USA      
+St. Louis, USA        
 
 ### People   
 
@@ -63,7 +63,7 @@ I = infected ungulate hosts
 <br> 
 
 ![](meta/meta1.png)     
-###### Example model output for nutrient (biomass) change over 100 years for the host waste, drool waste, and summed waste resource uptake and nutrient leaching modes of susceptible and infected host populations for beta transmission range [0,1].     
+###### Figure 1. Example model output for nutrient (biomass) change over 100 years for the host waste, drool waste, and summed waste resource uptake and nutrient leaching modes of susceptible and infected host populations for beta transmission range [0,1].     
 
 ******
 
@@ -78,7 +78,7 @@ P = parasite population (within-host parasite biomass)
 Q_H = nutrient quota in hosts (nutrient/carbon ratio)    
 Q_minus = min phosphorous to carbon ratio (1/Q_minus = high carbon to phosphorous ratio)  
 Q_plus = max phosphorous to carbon ratio (1/Q_plus = low carbon to phosphorous ratio)  
-Q_R = nutrient quota in food source (nutrient/carbon ratio) $Q_F \cdot$ is total nutrients in food      
+Q_R = nutrient quota in food source (nutrient/carbon ratio) Q_F. is total nutrients in food      
 R = resources in the landscape (food biomass)      
 W = waste (recycled biomass)              
 
@@ -232,21 +232,23 @@ Snippet of raw data input (default Web of Science keyword search query).
 
 ```
 H. Ebedes	1975	THE CAPTURE AND TRANSLOCATION OF GEMSBOK ORYX GAZELLA-GAZELLA IN THE NAMIB DESERT WITH THE AID OF FENTANYL ETORPHINE AND TRANQUILIZERS		Journal of the South African Veterinary Association			46		4	359-362								THE CAPTURE AND TRANSLOCATION OF GEMSBOK ORYX GAZELLA-GAZELLA IN THE NAMIB DESERT WITH THE AID OF FENTANYL ETORPHINE AND TRANQUILIZERS		0038-2809												BCI:BCI197763001378				"Gemsbok (23) in the Namib Desert were captured with combinations of fentanyl or etorphine hydrochloride, hyoscine hydrobromide and tranquilizers such as axaperione, SU-9064 [methyl 18-epereserpate methyl ether hydrochloride], triflupromazine hydrochloride and acetylpromazine maleate. Fentanyl, a new immobilizing compound proved to be safe and effective for gemsbok. The gemsbok were chased on the interdune plains and darted from a Land Rover with the Palmer powder-charge Cap-Chur gun. A 6-seater helicopter was used on a trial basis to dart gemsbok but it is suggested that a small more maneuvrable helicopter be used for further operations. All the gemsbok were transported under narcosis from the capture area to an enclosure. Chlorpromazine hydrochloride was injected into the captured gemsbok to sedate them in their new confined environment. Tranquilizers such as chlorpromazine hydrochloride, acetylpromazine maleate and a new tranquilizer SU-9064 were used to sedate the animals during long distance transportation in crates. This prevented the animals from injuring themselves and damaging the crates. For the 1st time in South West Africa wild animals were transported by air. A journey by road which under normal circumstances would have taken over 40 h was completed in less than 9 h by air. There were no losses during transportation and only 2 gemsbok were injured during the translocation operation."			<Go to ISI>://BCI:BCI197763001378
-"K. A. Durham, R. E. Corstvet and J. A. Hair"	1976	APPLICATION OF FLUORESCENT ANTIBODY TECHNIQUE TO DETERMINE INFECTIVITY RATES OF AMBLYOMMA-AMERICANUM ACARINA IXODIDAE SALIVARY GLANDS AND ORAL SECRETIONS BY THEILERIA-CERVI PIROPLASMORIDA THEILERIIDAE		Journal of Parasitology			62		6	1000-1002								APPLICATION OF FLUORESCENT ANTIBODY TECHNIQUE TO DETERMINE INFECTIVITY RATES OF AMBLYOMMA-AMERICANUM ACARINA IXODIDAE SALIVARY GLANDS AND ORAL SECRETIONS BY THEILERIA-CERVI PIROPLASMORIDA THEILERIIDAE		0022-3395												BCI:BCI197763040767				"Salivary glands and oral secretion from individual field collected ticks, or ticks infected with T. cervi [a pathogen for Odocoileus virginianus] in the laboratory, were subjected to fluorescent antibody techniques to determine the reliability of the technique in the identification of T. cervi in the oral secretion or salivary glands. The fluorescent antibody technique can be used with a reasonable degree of success in the identification of infected salivary glands or oral secretion. Oral secretion examinations gave fewer positive samples than when salivary glands from the same ticks were examined."			<Go to ISI>://BCI:BCI197763040767
-P. T. Durfee and P. J. A. Presidente	1979	A SEROLOGICAL SURVEY OF AUSTRALIAN WILDLIFE FOR ANTIBODIES TO LEPTOSPIRES OF THE HEBDOMADIS SEROGROUP		Australian Journal of Experimental Biology and Medical Science			57		2	177-190								A SEROLOGICAL SURVEY OF AUSTRALIAN WILDLIFE FOR ANTIBODIES TO LEPTOSPIRES OF THE HEBDOMADIS SEROGROUP		0004-945X												BCI:BCI198069024031
+"K. A. Durham, R. E. Corstvet and J. A. Hair"	1976	APPLICATION OF FLUORESCENT ANTIBODY TECHNIQUE TO DETERMINE INFECTIVITY RATES OF AMBLYOMMA-AMERICANUM ACARINA IXODIDAE SALIVARY GLANDS AND ORAL SECRETIONS BY THEILERIA-CERVI PIROPLASMORIDA THEILERIIDAE		Journal of Parasitology			62		6	1000-1002								APPLICATION OF FLUORESCENT ANTIBODY TECHNIQUE TO DETERMINE INFECTIVITY RATES OF AMBLYOMMA-AMERICANUM ACARINA IXODIDAE SALIVARY GLANDS AND ORAL SECRETIONS BY THEILERIA-CERVI PIROPLASMORIDA THEILERIIDAE		0022-3395												BCI:BCI197763040767
 ```
 
 Output: Quiered data based on user search terms.  
 
-Title 1               | Title 2               | Title 3               | Title 4
---------------------- | --------------------- | --------------------- | ---------------------
-lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
+Author | Year | Title | Journal | | Pages 
+--------------------- | --------------------- | --------------------- | --------------------- | ---------------------
+E. Dyason | 2010 | Summary of foot-and-mouth disease outbreaks reported in and around the Kruger National Park, South Africa, between 1970 and 2009 | Journal of the South African Veterinary Association | 201-206   
+M. R. Dunbar, W. J. Foreyt and J. F. Evermann | 1986 | Serologic evidence of respiratory syncytial virus infection in free-ranging mountain goats Oreamnos americanus | Journal of Wildlife Diseases | 415-416 
+H. T. Dublin, A. R. E. Sinclair, S. Boutin | 1990 | Does competition regulate ungulate populations further evidence from Serengeti, Tanzania | Oecologia (Berlin) | 283-288  
+C. Caruso, S. Peletto, F. Cerutti | 2017 | Evidence of circulation of the novel border disease virus genotype 8 in chamois | Archives of Virology | 511-515  
 
-<br>  
-******  
-  
-#### Data scraper bot  
+<br> 
+
+******    
+
+#### Data scraper bot    
 
 The data scraper bot gleans data from PDF articles (`.pdf`) based on user defined search terms and returns a local file of meta-analysis data.  
   

@@ -13,7 +13,8 @@ permalink: /coding_club/
 
 ### Location  
 
-Emory University Atlanta, USA
+Emory University  
+Atlanta, USA  
 
 ### People  
 

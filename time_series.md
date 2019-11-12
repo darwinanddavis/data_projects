@@ -13,7 +13,8 @@ permalink: /time_series/
 
 ### Location  
 
-Emory University Atlanta, USA
+Emory University  
+Atlanta, USA  
 
 ### People  
 

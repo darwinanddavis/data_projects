@@ -13,7 +13,9 @@ permalink: /spatial/
 
 ### Location
 
-Emory University Atlanta, USA
+Centre of Excellence for Biosecurity Risk Analysis   
+University of Melbourne  
+Melbourne, Australia       
 
 ### People
 
