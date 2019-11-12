@@ -36,7 +36,7 @@ David Civitello, Emory University, USA
 
 **Methods for wavelet analysis of time series data**  
 
-Psuedocode for running wavelet 
+Pseudocode for running wavelet 
 ```
 input parameters for wavelet function
 analysis function
@@ -50,7 +50,9 @@ execute function
 ```
 <br>
 
-Wavelet analysis `R` code  
+Wavelet analysis `R` code
+
+<!-- ________________________________________  code chunk ________________________________________  -->
 ```r
 packages <- c("WaveletComp","viridis")
 if(require(packages)){install.packages(packages,dependencies = T)}
@@ -124,6 +126,7 @@ wt.image(myw,
          plot.coi = F
          )
 ```  
+<!-- ________________________________________ end code chunk ________________________________________  -->
 <br>
 
 Other areas to apply this analysis:  
@@ -138,6 +141,7 @@ Other areas to apply this analysis:
 
 Code for spatial location data  
 
+<!-- ________________________________________  code chunk ________________________________________  -->
 ```r
 # packages
 pacman::p_load(leaflet,dplyr)
@@ -180,6 +184,7 @@ map <- addProviderTiles(map, provider_type,
 # plot
 map
 ```
+<!-- ________________________________________ end code chunk ________________________________________  -->
 <br>
 
 ![](time_series/time_series_sitelocs.png)  

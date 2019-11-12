@@ -126,6 +126,7 @@ The bot reads a `.txt` file containing literature entries resulting from a keywo
 
 Keyword query bot `R` code  
 
+<!-- ________________________________________  code chunk ________________________________________  -->
 ```r
 # required files
 # LEC100testrecords.txt
@@ -241,17 +242,20 @@ cat(rep("\n",2),"Your results are saved as\n\n",fho,"\n\n in","\"",wd,"\"","\n\n
 "Total papers when searching",col2search,":",length(final[,col2search]))
 
 ```
+<!-- ________________________________________ end code chunk ________________________________________  -->
 
 **Results**
 
 Input: Snippet of raw data from default Web of Science keyword search query.      
 
+<!-- ________________________________________ code chunk ________________________________________  -->
 ```
 H. Ebedes	1975	THE CAPTURE AND TRANSLOCATION OF GEMSBOK ORYX GAZELLA-GAZELLA IN THE NAMIB DESERT WITH THE AID OF FENTANYL ETORPHINE AND TRANQUILIZERS		Journal of the South African Veterinary Association			46		4	359-362								THE CAPTURE AND TRANSLOCATION OF GEMSBOK ORYX GAZELLA-GAZELLA IN THE NAMIB DESERT WITH THE AID OF FENTANYL ETORPHINE AND TRANQUILIZERS		0038-2809												BCI:BCI197763001378				"Gemsbok (23) in the Namib Desert were captured with combinations of fentanyl or etorphine hydrochloride, hyoscine hydrobromide and tranquilizers such as axaperione, SU-9064 [methyl 18-epereserpate methyl ether hydrochloride], triflupromazine hydrochloride and acetylpromazine maleate. Fentanyl, a new immobilizing compound proved to be safe and effective for gemsbok. The gemsbok were chased on the interdune plains and darted from a Land Rover with the Palmer powder-charge Cap-Chur gun. A 6-seater helicopter was used on a trial basis to dart gemsbok but it is suggested that a small more maneuvrable helicopter be used for further operations. All the gemsbok were transported under narcosis from the capture area to an enclosure. Chlorpromazine hydrochloride was injected into the captured gemsbok to sedate them in their new confined environment. Tranquilizers such as chlorpromazine hydrochloride, acetylpromazine maleate and a new tranquilizer SU-9064 were used to sedate the animals during long distance transportation in crates. This prevented the animals from injuring themselves and damaging the crates. For the 1st time in South West Africa wild animals were transported by air. A journey by road which under normal circumstances would have taken over 40 h was completed in less than 9 h by air. There were no losses during transportation and only 2 gemsbok were injured during the translocation operation."			<Go to ISI>://BCI:BCI197763001378
 "K. A. Durham, R. E. Corstvet and J. A. Hair"	1976	APPLICATION OF FLUORESCENT ANTIBODY TECHNIQUE TO DETERMINE INFECTIVITY RATES OF AMBLYOMMA-AMERICANUM ACARINA IXODIDAE SALIVARY GLANDS AND ORAL SECRETIONS BY THEILERIA-CERVI PIROPLASMORIDA THEILERIIDAE		Journal of Parasitology			62		6	1000-1002								APPLICATION OF FLUORESCENT ANTIBODY TECHNIQUE TO DETERMINE INFECTIVITY RATES OF AMBLYOMMA-AMERICANUM ACARINA IXODIDAE SALIVARY GLANDS AND ORAL SECRETIONS BY THEILERIA-CERVI PIROPLASMORIDA THEILERIIDAE		0022-3395		
 ```
+<!-- ________________________________________ end code chunk ________________________________________  -->
 
-Output: Quiered data based on user search terms (truncated).    
+Output: Queried data based on user search terms (truncated).      
 
 Author | Year | Title | Journal | Pages 
 --------------------- | --------------------- | --------------------- | --------------------- | ---------------------
@@ -274,6 +278,7 @@ Example search terms:
 
 
 Data scraper bot `R` code 
+<!-- ________________________________________ code chunk ________________________________________  -->
 ```r
 # extract data from pdfs
 
@@ -447,6 +452,7 @@ for(nn in 1:length(file_list)){
 } # end loop
 unreadable_pdf # pdfs that can't be read 
 ```
+<!-- ________________________________________ end code chunk ________________________________________  -->
 **Results**  
 
 Input: Text strings as keywords to scrape PDF files.   
@@ -457,7 +463,7 @@ Input: Text strings as keywords to scrape PDF files.
 
 > "SE", "SD", "CI"    
 
-Output: Quiered data based on user search terms (truncated).    
+Output: Queried data based on user search terms (truncated).    
 
 Relevance | Line number | Parasite type |  Response variable
 --------------------- | --------------------- | --------------------- | --------------------- 
