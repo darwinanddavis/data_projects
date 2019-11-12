@@ -40,53 +40,67 @@ Maris Brenn-White, St. Louis Zoo, USA
 
 **Outcomes**  
 
-* Nutrient Plants Susceptible Infected (NPSI) model      
 * Nutrient Quota Host-Parasite (NQHP) model  
-* Tic-Tac-Toe spatial NPSI model    
+* Tic-Tac-Toe spatial Nutrient Plants Susceptible Infected (NPSI) model          
 * Keyword query bot        
 * Data scraper bot        
 
 ### Example outputs  
 <br>    
 
-******  
+******    
 
-#### Nutrient Plants Susceptible Infected (NPSI) model  
+#### Nutrient Quota Host-Parasite (NQHP) model      
 
-Disease transmission model tracking nutrients, plant biomass (resources), and susceptible and infected host population densities under macroparasite burden.  
+Gut parasite disease transmission model tracking nutrient, plant biomass (resources), susceptible and infected host, and parasite population densities with explicit nutrient exchange and recycling.       
 
-**State variables (units = biomass)**    
-N = nutrients  
-P = plants  
-S = susceptible ungulate hosts  
-I = infected ungulate hosts  
-<br> 
+**State variables (units = biomass)**  
+N = nutrients in the landscape (biomass)
+R = food in the landscape (food biomass)
+QR = nutrient quota in food source (nutrient/carbon ratio). QF⋅ is total nutrients in food.
+H = host consumer population (host biomass)
+QH = nutrient quota in hosts (nutrient/carbon ratio)
+P = parasite population (within-host parasite biomass)
+
+**Parameters**  
+α = virulence  
+dH = death rate of hosts  
+dP = death rate of parasites  
+l = nutrient loss  
+mF = maximum food biomass  
+mH maximum host biomass  
+μM = maximum uptake rate of biomass  
+F = carbon biomass in food biomass  
+QR = nutrient to carbon (N/C) ratio in food biomass, so that QR⋅R is the nutrient level in food biomass  
+
+Nutrient growth (biomass)    
+![](meta/metae1.jpg)    
+
+Food growth (biomass)  
+![](meta/metae2.jpg)  
+
+Nutrient quota of food source  
+![](meta/metae3.jpg)    
+
+Host population growth (host biomass)  
+![](meta/metae4.jpg)  
+
+Nutrient quota in hosts (nutrient/carbon ratio)  
+![](meta/metae5.jpg)  
+
+Parasite population (within-host parasite biomass)   
+![](meta/metae6.jpg)  
+<br>     
 
 ![](meta/meta1.png)     
 ###### Figure 1. Example model output for nutrient (biomass) change over 100 years for the host waste, drool waste, and summed waste resource uptake and nutrient leaching modes of susceptible and infected host populations for beta transmission range [0,1].     
 
-******
-
-#### Nutrient Quota Host-Parasite (NQHP) model      
-
-Gut parasite disease transmission model in host-trematode systems with explicit nutrient exchange and recycling.    
-
-**State variables (units = biomass)**  
-H = host consumer population (host biomass)      
-N = nutrients in the environment (biomass)      
-P = parasite population (within-host parasite biomass)    
-Q_H = nutrient quota in hosts (nutrient/carbon ratio)    
-Q_minus = min phosphorous to carbon ratio (1/Q_minus = high carbon to phosphorous ratio)  
-Q_plus = max phosphorous to carbon ratio (1/Q_plus = low carbon to phosphorous ratio)  
-Q_R = nutrient quota in food source (nutrient/carbon ratio) Q_F. is total nutrients in food      
-R = resources in the landscape (food biomass)      
-W = waste (recycled biomass)              
 
 [Link to project page.](http://htmlpreview.github.io/?https://raw.githubusercontent.com/darwinanddavis/LECWorkingGroup/master/nqhp_model.html)    
 
 ******  
 
-#### Tic-Tac-Toe spatial NQHP model  
+#### Tic-Tac-Toe spatial Nutrient Plants Susceptible Infected (NPSI) model    
 
 Consumer-resource disease transmission model of parasite loading on nutrient cycling in ecosystems as a spatial individual-based model of resources, host populations, and disease vector populations.  
 
