@@ -54,13 +54,13 @@ Maris Brenn-White, St. Louis Zoo, USA
 
 Gut parasite disease transmission model tracking nutrient, plant biomass (resources), susceptible and infected host, and parasite population densities with explicit nutrient exchange and recycling.       
 
-**State variables (units = biomass)**  
-N = nutrients in the landscape (biomass)
-R = food in the landscape (food biomass)
-QR = nutrient quota in food source (nutrient/carbon ratio). QF⋅ is total nutrients in food.
-H = host consumer population (host biomass)
-QH = nutrient quota in hosts (nutrient/carbon ratio)
-P = parasite population (within-host parasite biomass)
+**State variables (units = biomass)**   
+N = nutrients in the landscape (biomass)  
+R = food in the landscape (food biomass)  
+QR = nutrient quota in food source (nutrient/carbon ratio). QF⋅ is total nutrients in food.  
+H = host consumer population (host biomass)  
+QH = nutrient quota in hosts (nutrient/carbon ratio)  
+P = parasite population (within-host parasite biomass)    
 
 **Parameters**  
 α = virulence  
@@ -72,25 +72,27 @@ mH maximum host biomass
 μM = maximum uptake rate of biomass  
 F = carbon biomass in food biomass  
 QR = nutrient to carbon (N/C) ratio in food biomass, so that QR⋅R is the nutrient level in food biomass  
+Recycling = e⋅QF⋅f⋅F⋅H  
 
-Nutrient growth (biomass)    
+**Nutrient growth (biomass)**      
 ![](meta/metae1.jpg)    
 
-Food growth (biomass)  
+**Food growth (biomass)**  
 ![](meta/metae2.jpg)  
 
-Nutrient quota of food source  
+**Nutrient quota of food source**  
 ![](meta/metae3.jpg)    
 
-Host population growth (host biomass)  
+**Host population growth (host biomass)**    
 ![](meta/metae4.jpg)  
 
-Nutrient quota in hosts (nutrient/carbon ratio)  
+**Nutrient quota in hosts (nutrient/carbon ratio)**  
 ![](meta/metae5.jpg)  
 
-Parasite population (within-host parasite biomass)   
+**Parasite population (within-host parasite biomass)**     
 ![](meta/metae6.jpg)  
-<br>     
+<br>  
+<br>  
 
 ![](meta/meta1.png)     
 ###### Figure 1. Example model output for nutrient (biomass) change over 100 years for the host waste, drool waste, and summed waste resource uptake and nutrient leaching modes of susceptible and infected host populations for beta transmission range [0,1].     
@@ -104,7 +106,7 @@ Parasite population (within-host parasite biomass)
 
 Consumer-resource disease transmission model of parasite loading on nutrient cycling in ecosystems as a spatial individual-based model of resources, host populations, and disease vector populations.  
 
-To forecast how resource biomass uptake and release by infected and non-infected host populations varies under a disease mosaic landscape driven by feedback between modes and rates of disease transmission and costs of parasite occurrence and nutrient deposit in space and time.      
+The project aims to predict how resource biomass uptake and release by infected and non-infected host populations varies under a disease mosaic landscape. Disease patches in the landscape are driven by feedback between modes and rates of disease transmission and costs of parasite occurrence and nutrient deposit in space and time.        
 
 [Link to project page.](http://htmlpreview.github.io/?https://raw.githubusercontent.com/darwinanddavis/LECWorkingGroup/master/tictactoe.html)      
 
@@ -245,7 +247,8 @@ cat(rep("\n",2),"Your results are saved as\n\n",fho,"\n\n in","\"",wd,"\"","\n\n
 Input: Snippet of raw data from default Web of Science keyword search query.      
 
 ```
-H. Ebedes	1975	THE CAPTURE AND TRANSLOCATION OF GEMSBOK ORYX GAZELLA-GAZELLA IN THE NAMIB DESERT WITH THE AID OF FENTANYL ETORPHINE AND TRANQUILIZERS		Journal of the South African Veterinary Association			46		4	359-362								THE CAPTURE AND TRANSLOCATION OF GEMSBOK ORYX GAZELLA-GAZELLA IN THE NAMIB DESERT WITH THE AID OF FENTANYL ETORPHINE AND TRANQUILIZERS		0038-2809												BCI:BCI197763001378				"Gemsbok (23) in the Namib Desert were captured with combinations of fentanyl or etorphine hydrochloride, hyoscine hydrobromide and tranquilizers such as axaperione, SU-9064 [methyl 18-epereserpate methyl ether hydrochloride], triflupromazine hydrochloride and acetylpromazine maleate. Fentanyl, a new immobilizing compound proved to be safe and effective for gemsbok. The gemsbok were chased on the interdune plains and darted from a Land Rover with the Palmer powder-charge Cap-Chur gun. A 6-seater helicopter was used on a trial basis to dart gemsbok but it is suggested that a small more maneuvrable helicopter be used for further operations. All the gemsbok were transported under narcosis from the capture area to an enclosure. Chlorpromazine hydrochloride was injected into the captured gemsbok to sedate them in their new confined environment. Tranquilizers such as chlorpromazine hydrochloride, acetylpromazine maleate and a new tranquilizer SU-9064 were used to sedate the animals during long distance transportation in crates. This prevented the animals from injuring themselves and damaging the crates. For the 1st time in South West Africa wild animals were transported by air. A journey by road which under normal circumstances would have taken over 40 h was completed in less than 9 h by air. There were no losses during transportation and only 2 gemsbok were injured during the translocation operation."	
+H. Ebedes	1975	THE CAPTURE AND TRANSLOCATION OF GEMSBOK ORYX GAZELLA-GAZELLA IN THE NAMIB DESERT WITH THE AID OF FENTANYL ETORPHINE AND TRANQUILIZERS		Journal of the South African Veterinary Association			46		4	359-362								THE CAPTURE AND TRANSLOCATION OF GEMSBOK ORYX GAZELLA-GAZELLA IN THE NAMIB DESERT WITH THE AID OF FENTANYL ETORPHINE AND TRANQUILIZERS		0038-2809												BCI:BCI197763001378				"Gemsbok (23) in the Namib Desert were captured with combinations of fentanyl or etorphine hydrochloride, hyoscine hydrobromide and tranquilizers such as axaperione, SU-9064 [methyl 18-epereserpate methyl ether hydrochloride], triflupromazine hydrochloride and acetylpromazine maleate. Fentanyl, a new immobilizing compound proved to be safe and effective for gemsbok. The gemsbok were chased on the interdune plains and darted from a Land Rover with the Palmer powder-charge Cap-Chur gun. A 6-seater helicopter was used on a trial basis to dart gemsbok but it is suggested that a small more maneuvrable helicopter be used for further operations. All the gemsbok were transported under narcosis from the capture area to an enclosure. Chlorpromazine hydrochloride was injected into the captured gemsbok to sedate them in their new confined environment. Tranquilizers such as chlorpromazine hydrochloride, acetylpromazine maleate and a new tranquilizer SU-9064 were used to sedate the animals during long distance transportation in crates. This prevented the animals from injuring themselves and damaging the crates. For the 1st time in South West Africa wild animals were transported by air. A journey by road which under normal circumstances would have taken over 40 h was completed in less than 9 h by air. There were no losses during transportation and only 2 gemsbok were injured during the translocation operation."			<Go to ISI>://BCI:BCI197763001378
+"K. A. Durham, R. E. Corstvet and J. A. Hair"	1976	APPLICATION OF FLUORESCENT ANTIBODY TECHNIQUE TO DETERMINE INFECTIVITY RATES OF AMBLYOMMA-AMERICANUM ACARINA IXODIDAE SALIVARY GLANDS AND ORAL SECRETIONS BY THEILERIA-CERVI PIROPLASMORIDA THEILERIIDAE		Journal of Parasitology			62		6	1000-1002								APPLICATION OF FLUORESCENT ANTIBODY TECHNIQUE TO DETERMINE INFECTIVITY RATES OF AMBLYOMMA-AMERICANUM ACARINA IXODIDAE SALIVARY GLANDS AND ORAL SECRETIONS BY THEILERIA-CERVI PIROPLASMORIDA THEILERIIDAE		0022-3395		
 ```
 
 Output: Quiered data based on user search terms (truncated).    

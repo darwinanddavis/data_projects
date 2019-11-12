@@ -36,7 +36,7 @@ Hasse Walum, Emory University, USA
 
 Head directly to the Emory Coding Club website to see all info on session material and lesson modules.  
 
-[Emory Coding Club website](https://darwinanddavis.github.io/EmoRyCodingClub/index.html)    
+[## Emory Coding Club website](https://darwinanddavis.github.io/EmoRyCodingClub/index.html)    
 <br>  
 
 ![](coding_club/coding_club1.jpg)
