@@ -188,7 +188,7 @@ map
 <br>
 
 ![](time_series/time_series_sitelocs.png)  
-###### Figure 1. Site locations for temperature probe data and host (_Biomphalaria_) habitats.     
+###### Figure 1. Site locations for temperature probe data and known sites for schistosomiasis exposure.       
 <br>  
 
 ![alt-text="Wavelet analysis"](time_series/time_series1.png)            

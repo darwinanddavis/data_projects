@@ -62,7 +62,7 @@ _Media_
 <br>  
 
 ![hr](spatial/spatial5.png)
-###### Figure 5. Home range area (km2) of tagged animal in the wild for different months throughout the breeding season. Location is the Bundey Bore field station in the mid-north of South Australia (139°21’E, 33°55’S). Ref: Malishev et al. (2018).   
+###### Figure 5. Home range area (km2) of tagged animal in the wild for different months throughout the breeding season. Location is the Bundey Bore field station in the mid-north of South Australia (139°21’E, 33°55’S).   
 <br>  
 
 ![supp1](spatial/spatial6.png)
