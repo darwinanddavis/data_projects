@@ -82,7 +82,7 @@ The onelump_varenv.R and DEB.R functions update the individual internal thermal 
 
 ### Links  
 
-[Project Page on Github.](https://github.com/darwinanddavis/Sleepy_IBM)      
+[Project page on Github.](https://github.com/darwinanddavis/Sleepy_IBM)      
 
 [Supplementary Material for Malishev M, Bull, CM, and Kearney MR (2018) MEE, 9(3): 472–489](https://github.com/darwinanddavis/MalishevBullKearney).    
 

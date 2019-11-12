@@ -195,11 +195,11 @@ map
 ###### Figure 2. Environmental temperature fluctuations and wavelet power spectrums over time in the Kinango Dam _Biomphalaria_ field site. Horizontal lines in left plot indicate the optimal body temperature (14C−26C) for _Biomphalaria_ host snails. Wavelet analyses show the time horizon (periods of days, weeks, months) over time of year (data collection period). Power levels indicate periodicity strength of temperatures in right plot.   
 <br>  
 
-![](time_series/time_series2.png)  
-###### Figure 3. Snippet of the 'Time series analysis of field temperature data identifies human-induced change to snail host habitats producing human schistosomes' research poster.   
+[Download the full poster (`.png`) (large file: 19.5 Mb).](https://github.com/darwinanddavis/SchistoIBM/raw/master/wavelet/lee_etal_poster.png)  
 <br> 
 
-[Download the full poster (`.png`) (large file: 19.5 Mb).](https://github.com/darwinanddavis/SchistoIBM/raw/master/wavelet/lee_etal_poster.png)  
+![](time_series/time_series2.png)  
+###### Figure 3. Snippet of the 'Time series analysis of field temperature data identifies human-induced change to snail host habitats producing human schistosomes' research poster.     
 
 <br>  
 <br>  
