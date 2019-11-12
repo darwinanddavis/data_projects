@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573521888600.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "910E7FB",
+    "lastKnownWriteTime" : 1573522681,
+    "last_content_update" : 1573522681321,
+    "path" : "~/Documents/Data/data_projects/time_series/data_project_snapshot_overview.Rmd",
+    "project_path" : "time_series/data_project_snapshot_overview.Rmd",
+    "properties" : {
+        "cursorPosition" : "11,50",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

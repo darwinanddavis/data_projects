@@ -3,11 +3,10 @@
 Gemfile.lock
 _site
 *.gem
-*.pdf
 .Ruser
-.Rproj
-.Rdata
+*.Rproj
+*.Rdata
 *.Rmd
 _project_template.rmd
 _project_template.md
-
+*.docx

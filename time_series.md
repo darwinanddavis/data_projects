@@ -194,6 +194,7 @@ map
 <br>
 
 ![](time_series/time_series2.png)  
+###### Figure 3. Snippet of the 'Time series analysis of field temperature data identifies human-induced change to snail host habitats producing human schistosomes' research poster.   
 
 <br>  
 <br>  
