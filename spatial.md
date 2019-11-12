@@ -8,9 +8,9 @@ permalink: /spatial/
 ******
 <!-- ![](spatial/spatial_header.gif) ![](spatial/spatial_header.gif) ![](spatial/spatial_header.gif) -->
 <p align="center">
-  <img src="spatial/spatial_header.gif" width="100" />
-  <img src="spatial/spatial_header.gif" width="100" />
-  <img src="spatial/spatial_header.gif" width="100" />
+  <img src="/spatial/spatial_header.gif" width="100" />
+  <img src="/spatial/spatial_header.gif" width="100" />
+  <img src="/spatial/spatial_header.gif" width="100" />
 </p>
 
 
