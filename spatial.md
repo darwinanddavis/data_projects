@@ -46,27 +46,27 @@ _Media_
 <br>
 
 ![activity](spatial/spatial1.jpg)  
-###### Figure 1. Activity budget for all optimising and satisficing animals throughout the breeding season showing proportion of time spent (A) feeding, (B) searching, and (C) resting, as well as (D) proportion of number of transitions between activity states. Radius = time spent in activity state; circumference = days throughout the breeding season. Black arrows indicate a 5-day period where environmental conditions were not conducive to activity, so animals spent this time resting in shade.    
+###### Figure 1. Activity budget for 60 simulated individuals throughout the breeding season showing proportion of time spent (A) feeding, (B) searching, and (C) resting, as well as (D) proportion of number of transitions between activity states. Radius = time spent in activity state; circumference = days throughout the breeding season. Black arrows indicate a 5-day period where habitat conditions were not conducive to activity, so individuals spent this time resting in shade. Ref: Malishev et al. (2018).   
 <br>  
 
 ![spatial sims](spatial/spatial2.jpg)
-###### Figure 2. Movement path and home ranges of real versus simulated sleepy lizards. (A) Individual #11885, a real sleepy lizard showing active movement and (B) individual #11533, a real sleepy lizard showing passive movement, throughout the breeding season. (C) A random simulated optimising individual representing the maximum potential movement and (D) a random simulated satisficing individual representing the minimum movement necessary throughout the breeding season based on its physiological limits. (C–D) green = food patches, black = shade patches, and polygons represent home ranges. Patch size in simulations represents time elapsed on patch.  
+###### Figure 2. Movement model outputs for movement path and home ranges of (top) field geolocation data of tagged animals versus (bottom) simulated individual animals in food and refuge landscape. Active (A) and passive (B) real animals are captured by active (C) and passive (D) model simulations. (C–D) Green = food patches, black = shade patches, and polygons represent home ranges. Patch size in simulations represents time elapsed on patch. Ref: Malishev et al. (2018).  
 <br>  
 
 ![homerange hist](spatial/spatial3.jpg)
-###### Figure 3. (A) Distributions of home range area (km2) of real (pink) and seeded simulated optimising (orange) and satisficing (blue) movement strategies under dense resource distribution (food and shade). Home range polygons in space showing overlap of seeded simulated (B) satisficing and (C) optimising individuals and (D) real individuals. Home ranges in (D) appear more scattered due to different starting locations of real animals, whereas (B) and (C) have seeded starting locations in the centre of the landscape. The vegetation layer in (D) is generated from LIDAR data of the habitat site, showing the thermal mosaic of the landscape.
+###### Figure 3. (A) Distributions of home range area (km2) of real (pink) and seeded simulated active (orange) and passive (blue) movement strategies under dense resource distribution (food and shade). Home range polygons in space showing overlap of seeded simulated (B) passive and (C) active individuals and (D) real individuals. Home ranges in (D) appear more scattered due to different starting locations of real animals, whereas (B) and (C) have seeded starting locations in the centre of the landscape. The vegetation layer in (D) is generated from LIDAR data of the habitat site, showing the thermal mosaic of the landscape. Ref: Malishev et al. (2018).
 <br>  
 
 ![3d](spatial/spatial4.png)
-###### Figure 4. Simulated satisficing individual in a habitat of sparse resources and shade distributed in space. Density peaks represent time spent in each patch.  
+###### Figure 4. Example 3D model output for simulated passive individual in a habitat of sparse resources and shade distributed in space. Density peaks represent time spent in each patch.  
 <br>  
 
 ![hr](spatial/spatial5.png)
-###### Figure 5. Home range area (km2) of an adult sleepy lizard for different months throughout the breeding season. Location is the Bundey Bore field station in the mid-north of South Australia (139°21’E, 33°55’S).    
+###### Figure 5. Home range area (km2) of tagged animal in the wild for different months throughout the breeding season. Location is the Bundey Bore field station in the mid-north of South Australia (139°21’E, 33°55’S). Ref: Malishev et al. (2018).   
 <br>  
 
 ![supp1](spatial/spatial6.png)
-###### Figure 6. Distributions of home range area (km2) of real animals (pink) and simulated optimising (orange) and satisficing (blue) movement strategies under (A) dense and (B) sparse resource distribution (food and shade). Insets (L–R): Home range polygons in space showing overlap of simulated satisficing (blue) and optimising (orange) movement strategies, and examples of (upper) dense and (lower) sparse resource distributions in the study site.   
+###### Figure 6. Distributions of home range area (km2) of real animals (pink) and simulated active (orange) and passive (blue) movement strategies under (A) dense and (B) sparse resource distribution (food and shade). Insets (L–R): Home range polygons in space showing overlap of simulated passive (blue) and active (orange) movement strategies, and examples of (upper) dense and (lower) sparse resource distributions in the study site. Ref: Malishev et al. (2018).   
 <br> 
 
 **GPS data collection**   

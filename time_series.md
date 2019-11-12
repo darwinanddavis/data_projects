@@ -192,7 +192,7 @@ map
 <br>  
 
 ![alt-text="Wavelet analysis"](time_series/time_series1.png)            
-###### Figure 2. Environmental temperature fluctuations and wavelet power spectrums over time in the Kinango Dam _Biomphalaria_ field site. Horizontal lines in left plot indicate the optimal body temperature (14C−26C) for _Biomphalaria_ host snails. Wavelet analyses show the time horizon (periods of days, weeks, months) over time of year (data collection period). Power levels indicate periodicity strength of temperatures in right plot.   
+###### Figure 2. Field temperature fluctuations and wavelet power spectrums over time in Kinango Dam, Kenya, a human exposure site to schistosomiasis. Horizontal lines in left plot indicate the optimal body temperature (14C−26C) for _Biomphalaria_ hosts for transmitting the disease. Wavelet analyses show the time horizon (periods of days, weeks, months) over time of year (data collection period). Power levels indicate periodicity strength of temperatures in right plot.    
 <br>  
 
 [Download the full poster (`.png`) (large file: 19.5 Mb).](https://github.com/darwinanddavis/SchistoIBM/raw/master/wavelet/lee_etal_poster.png)  
